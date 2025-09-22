@@ -1,4 +1,4 @@
-name: CI/CD — Build, Test, Docker Push
+name: CI/CD — Build, Test, Docker Push 
 
 on:
   push:
@@ -48,3 +48,4 @@ jobs:
           tags: |
             ${{ env.IMAGE_NAME }}:latest
             ${{ env.IMAGE_NAME }}:${{ github.sha }}
+
