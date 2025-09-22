@@ -49,5 +49,10 @@ docker run -d -p 3000:3000 nodejs-demo-app
 ```
 ---
 Access the app at: [http://localhost:3000](http://localhost:3000)
+---
+
+## Author
+**Aakash Deep**
+
 
 
