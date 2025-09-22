@@ -4,12 +4,11 @@ const app = require("../server");
 let server;
 
 beforeAll(() => {
-  server = app.listen(4000); // 👈 test ke liye separate port
+  server = app.listen(4000); 
 });
 
 afterAll(() => {
-  server.close(); // 👈 close server after tests
-});
+  server.close();
 
 describe("GET /", () => {
   it("should return Hello from Node.js app!", async () => {
@@ -18,3 +17,4 @@ describe("GET /", () => {
     expect(res.text).toBe("Hello from Node.js app!");
   });
 });
+
