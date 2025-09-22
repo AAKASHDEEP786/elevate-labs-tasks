@@ -9,6 +9,7 @@ beforeAll(() => {
 
 afterAll(() => {
   server.close();
+}); 
 
 describe("GET /", () => {
   it("should return Hello from Node.js app!", async () => {
@@ -17,4 +18,3 @@ describe("GET /", () => {
     expect(res.text).toBe("Hello from Node.js app!");
   });
 });
-
