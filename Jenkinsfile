@@ -8,6 +8,13 @@ pipeline {
             }
         }
 
+        stage('GitLeaks Scan') {
+            steps {
+                sh 'gitleaks detect --source ./frontend --exit-code 1'
+                sh 'gitleaks detect --source ./backend --exit-code 1'
+            }
+        }
+
         stage('OWASP Dependency Check') {
             steps {
                 dependencyCheck additionalArguments: '--scan ./', odcInstallation: 'DP'
@@ -15,38 +22,38 @@ pipeline {
             }
         }
 
-        stage('Docker Build') {
+        stage('Trivy FS Scan') {
+            steps {
+                // Better JSON report for automation
+                sh 'trivy fs --format json -o fs-report.json .'
+                archiveArtifacts artifacts: 'fs-report.json', followSymlinks: false
+            }
+        }
+
+        stage('Build-Tag & Push Docker Image') {
             steps {
                 script {
-                    withDockerRegistry(credentialsId: '9ea0c4b0-721f-4219-be62-48a976dbeec0') {
-                        sh "docker build -t todoapp:latest -f docker/Dockerfile ."
-                        sh "docker tag todoapp:latest <your-dockerhub-username>/todoapp:latest"
+                    withDockerRegistry(credentialsId: 'docker-cred') {
+                        sh 'docker build -t todoapp:latest -f backend/Dockerfile .'
+                        sh 'docker tag todoapp:latest aakashdevops/todoapp:latest'
+                        sh 'docker push aakashdevops/todoapp:latest'
                     }
                 }
             }
         }
 
-        stage('Docker Push') {
+        stage('Trivy Docker Scan') {
             steps {
-                script {
-                    withDockerRegistry(credentialsId: '9ea0c4b0-721f-4219-be62-48a976dbeec0') {
-                        sh "docker push <your-dockerhub-username>/todoapp:latest"
-                    }
-                }
-            }
-        }
-
-        stage('Trivy Scan') {
-            steps {
-                sh "trivy <your-dockerhub-username>/todoapp:latest"
+                sh 'trivy image --format json -o image-report.json aakashdevops/todoapp:latest'
+                archiveArtifacts artifacts: 'image-report.json', followSymlinks: false
             }
         }
 
         stage('Deploy to Docker') {
             steps {
                 script {
-                    sh "docker rm -f to-do-app || true" // Remove old container if exists
-                    sh "docker run -d --name to-do-app -p 4000:4000 <your-dockerhub-username>/todoapp:latest"
+                    sh 'docker rm -f todoapp || true'
+                    sh 'docker run -d --name todoapp -p 4000:4000 aakashdevops/todoapp:latest'
                 }
             }
         }
