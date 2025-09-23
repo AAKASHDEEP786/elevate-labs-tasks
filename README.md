@@ -10,8 +10,8 @@ This repository contains a simple Todo application that can be run using Docker.
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/AAKASHDEEP786/to-do-app-main.git
-cd to-do-app-main
+git clone https://github.com/AAKASHDEEP786/to-do-app.git
+cd to-do-app
 ```
 
 ## Build and Run with Docker
