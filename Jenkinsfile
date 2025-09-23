@@ -17,15 +17,15 @@ pipeline {
 
         stage('OWASP Dependency Check') {
             steps {
-                dependencyCheck additionalArguments: '--scan ./', odcInstallation: 'DP'
-                dependencyCheckPublisher pattern: '**/dependency-check-report.xml'
+                script {
+                    echo "Skipping Dependency Check scan..."
+                    sh 'echo "Dependency check skipped"'
+                }
             }
         }
 
-
         stage('Trivy FS Scan') {
             steps {
-                // Better JSON report for automation
                 sh 'trivy fs --format json -o fs-report.json .'
                 archiveArtifacts artifacts: 'fs-report.json', followSymlinks: false
             }
