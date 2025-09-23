@@ -23,7 +23,6 @@ docker build -t todoapp:latest -f backend/Dockerfile .
 ---
 
 ## Run the container:
-
 ```bash
 docker run -d --name todoapp -p 4000:4000 todoapp:latest
 ```
@@ -32,3 +31,10 @@ docker run -d --name todoapp -p 4000:4000 todoapp:latest
 Open your browser and go to:
 
 http://localhost:4000
+
+## Stop the Application
+```bash
+docker rm -f todoapp
+```
+License
+This project is open-source and free to use.
