@@ -2,14 +2,10 @@
 
 This repository contains a simple Todo application that can be run using Docker. The app has a **backend** and **frontend**, and this README explains how to clone, build, and run it.
 
----
-
 ## Prerequisites
 
 - [Docker](https://www.docker.com/get-started) installed
 - Git installed
-
----
 
 ## Clone the Repository
 
@@ -17,14 +13,9 @@ This repository contains a simple Todo application that can be run using Docker.
 git clone https://github.com/AAKASHDEEP786/to-do-app-main.git
 cd to-do-app-main
 ```
----
 
-Build and Run with Docker
-Option 1: Using Docker CLI
-
----
-
-## Build the Docker image:
+## Build and Run with Docker
+  Build the Docker image:
 
 ```bash
 docker build -t todoapp:latest -f backend/Dockerfile .
