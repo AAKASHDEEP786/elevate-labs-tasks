@@ -20,13 +20,11 @@ cd to-do-app-main
 ```bash
 docker build -t todoapp:latest -f backend/Dockerfile .
 ```
----
 
 ## Run the container:
 ```bash
 docker run -d --name todoapp -p 4000:4000 todoapp:latest
 ```
----
 
 Open your browser and go to:
 
