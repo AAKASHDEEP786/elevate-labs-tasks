@@ -34,6 +34,6 @@ http://localhost:4000
 ```bash
 docker rm -f todoapp
 ```
-License
+## License
 
 This project is open-source and free to use.
