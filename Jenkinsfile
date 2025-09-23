@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/AAKASHDEEP786/to-do-app-main.git'
+                git branch: 'main', changelog: false, poll: false, url: 'https://github.com/AAKASHDEEP786/to-do-app.git'
             }
         }
 
