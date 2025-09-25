@@ -57,6 +57,7 @@ Provision a local Docker container using Terraform to understand **IaC principle
 
    ---
 
-   ## Author
+## Author
 **Aakash Deep**
+
 
