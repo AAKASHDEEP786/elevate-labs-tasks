@@ -51,8 +51,8 @@ Provision a local Docker container using Terraform to understand **IaC principle
    terraform state list
    ```
 Open your browser and go to:
-
 http://localhost:4000
+
    ---
    **Destroy the infrastructure when done**
    
@@ -65,6 +65,7 @@ http://localhost:4000
 
 ## Author
 **Aakash Deep**
+
 
 
 
