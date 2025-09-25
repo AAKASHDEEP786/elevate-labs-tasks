@@ -10,14 +10,6 @@ Provision a local Docker container using Terraform to understand **IaC principle
 
 ---
 
-## Tools & Technologies
-
-- [Terraform](https://www.terraform.io/) – Infrastructure as Code tool  
-- [Docker](https://www.docker.com/) – Container platform  
-- Local development environment (Windows, Linux, or macOS)
-
----
-
 ## Features
 
 - Automates Docker container creation using Terraform.
@@ -67,3 +59,4 @@ Provision a local Docker container using Terraform to understand **IaC principle
 
    ## Author
 **Aakash Deep**
+
