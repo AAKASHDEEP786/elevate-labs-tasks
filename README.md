@@ -50,8 +50,10 @@ Provision a local Docker container using Terraform to understand **IaC principle
    ```bash
    terraform state list
    ```
+Open your browser and go to:
+   http://localhost:8081
    ---
-6. **Destroy the infrastructure when done**
+   **Destroy the infrastructure when done**
    
    Note: This will remove the Docker container created by Terraform. Use with caution.
    ```bash
@@ -62,6 +64,7 @@ Provision a local Docker container using Terraform to understand **IaC principle
 
 ## Author
 **Aakash Deep**
+
 
 
 
