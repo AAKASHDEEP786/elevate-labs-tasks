@@ -52,6 +52,7 @@ Provision a local Docker container using Terraform to understand **IaC principle
    ```
    ---
 6. **Destroy the infrastructure when done**
+   
    Note: This will remove the Docker container created by Terraform. Use with caution.
    ```bash
    terraform destroy
@@ -61,6 +62,7 @@ Provision a local Docker container using Terraform to understand **IaC principle
 
 ## Author
 **Aakash Deep**
+
 
 
 
