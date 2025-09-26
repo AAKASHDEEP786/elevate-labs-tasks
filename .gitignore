@@ -1,0 +1,48 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# Node
+node_modules/
+npm-debug.log
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+# local tfvars containing secrets
+*.tfvars
+*.tfvars.json
+
+# Docker
+docker-compose.override.yml
+*.log
+/.docker
+
+# Keys & certs
+*.pem
+*.key
+*.crt
+
+# Terraform plan files
+*.tfplan
+
+# Misc
+dist/
+build/
