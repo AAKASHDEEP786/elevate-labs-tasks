@@ -48,6 +48,6 @@ It covers branching strategies, pull requests, tags, documentation, and handling
 - Created Git **tags** to mark project milestones/releases.  
 - Example:  
   ```bash
-  git tag -a v1.0 -m "Initial stable release"
-  git push origin v1.0
+  git tag -a v1.0.0 -m "Release version 1.0.0"
+  git push origin v1.0.0
 
