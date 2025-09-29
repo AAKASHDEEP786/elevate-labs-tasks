@@ -55,7 +55,7 @@ Option B (port-forward):
 kubectl port-forward svc/hello-svc 8080:80
 # then open http://localhost:8080 in your browser
 ```
-7. Debugging
+## 7. Debugging
 You can run a debug pod:
 ```bash
 kubectl apply -f debug-pod.yaml
@@ -67,4 +67,5 @@ kubectl delete -f .
 minikube delete
 
 ```
+
 
