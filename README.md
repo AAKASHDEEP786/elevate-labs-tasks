@@ -20,10 +20,10 @@ Start a Minikube cluster with enough resources:
 minikube start --driver=docker --cpus=2 --memory=3072
 ```
 2. Clone This Repository
-
+```bash
 git clone https://github.com/AAKASHDEEP786/kubernetes-minikube-deployment.git
 cd kubernetes-minikube-deployment/kubernetes
-
+```
 3. Create Namespace
 ```bash
 kubectl apply -f namespace.yaml
@@ -65,4 +65,5 @@ kubectl exec -it <debug-pod-name> -- sh
 ```bash
 kubectl delete -f .
 minikube delete
+
 ```
