@@ -39,13 +39,13 @@ git push -u origin main
 
 Now go to your repository → Settings → Pages → under Build and deployment:
 
-Select Deploy from a branch
+• Select Deploy from a branch
 
-Choose branch: main
+• Choose branch: main
 
-Folder: / (root)
+• Folder: / (root)
 
-Click Save
+• Click Save
 
 After 1–2 minutes your site will be live at:
 
