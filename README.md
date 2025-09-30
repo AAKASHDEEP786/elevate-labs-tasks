@@ -12,7 +12,7 @@ git clone https://github.com/USERNAME/portfolio-website.git
 cd portfolio-website
 ```
 
-Now open index.html in your browser:
+## Now open index.html in your browser:
 
 Option 1: Double-click the file.
 
