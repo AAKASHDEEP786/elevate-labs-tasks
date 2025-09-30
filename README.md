@@ -62,10 +62,9 @@ https://aakashdeep786.github.io/portfolio-website/
 
 • GitHub Pages – Free hosting
 
-🔗 Live Website
-👉 View my portfolio
 
-👨‍💻 Author
+
+## 👨‍💻 Author
 Name: Aakash Deep
 GitHub: @AAKASHDEEP786
 
