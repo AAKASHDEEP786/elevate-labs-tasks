@@ -23,6 +23,7 @@ python3 -m http.server 8080
 ```
 Then visit: http://localhost:8080
 
+---
 
 🌍 Host on GitHub Pages
 To deploy this site live on GitHub Pages:
