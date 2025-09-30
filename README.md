@@ -67,6 +67,6 @@ https://aakashdeep786.github.io/portfolio-website/
 ## 👨‍💻 Author
 
 Name: Aakash Deep
+
 GitHub: @AAKASHDEEP786
 
----
