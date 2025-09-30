@@ -25,7 +25,7 @@ Then visit: http://localhost:8080
 
 ---
 
-🌍 Host on GitHub Pages
+## 🌍 Host on GitHub Pages
 To deploy this site live on GitHub Pages:
 
 ```bash
@@ -37,7 +37,7 @@ git remote add origin https://github.com/AAKASHDEEP786/portfolio-website.git
 git push -u origin main
 ```
 
-Now go to your repository → Settings → Pages → under Build and deployment:
+## Now go to your repository → Settings → Pages → under Build and deployment:
 
 • Select Deploy from a branch
 
@@ -53,7 +53,7 @@ https://aakashdeep786.github.io/portfolio-website/
 
 ---
 
-🛠️ Built With
+## 🛠️ Built With
 • HTML5 – Structure
 
 • CSS3 – Styling
