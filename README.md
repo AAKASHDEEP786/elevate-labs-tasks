@@ -54,13 +54,13 @@ https://aakashdeep786.github.io/portfolio-website/
 ---
 
 🛠️ Built With
-HTML5 – Structure
+• HTML5 – Structure
 
-CSS3 – Styling
+• CSS3 – Styling
 
-Git & GitHub – Version control
+• Git & GitHub – Version control
 
-GitHub Pages – Free hosting
+• GitHub Pages – Free hosting
 
 🔗 Live Website
 👉 View my portfolio
