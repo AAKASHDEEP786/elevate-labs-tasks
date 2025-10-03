@@ -13,9 +13,6 @@ Hello, Jenkins + Maven!
 
 ---
 
-
----
-
 ## 🛠 Tools Used
 - **Java JDK 17+** (Jenkins requires Java 17+, but the project targets Java 8 compatibility)
 - **Maven 3.8.6**
@@ -42,4 +39,52 @@ java -jar target/hello-1.0.jar
 Expected output:
 
 Hello, Jenkins + Maven!
+
+### ⚙️ Jenkins Setup (Freestyle Job)
+
+Run Jenkins with Docker
+```bash
+docker run -d --name jenkins \
+  -p 8080:8080 -p 50000:50000 \
+  -v jenkins_home:/var/jenkins_home \
+  jenkins/jenkins:lts-jdk17
+```
+
+## Install Maven inside Jenkins
+
+Go to Manage Jenkins → Global Tool Configuration → Maven → Install Automatically
+
+## Create a Freestyle Job
+
+Source Code Management → point to repo (or workspace folder)
+
+Build → Add build step → Invoke top-level Maven targets
+
+Goal: clean package
+
+(Optional) Post-build Actions
+
+Archive the artifact: target/*.jar
+
+✅ Output
+
+In Jenkins Console Output, you should see:
+
+[INFO] BUILD SUCCESS
+Finished: SUCCESS
+
+📦 Deliverables
+
+Java HelloWorld app (HelloWorld.java)
+
+pom.xml
+
+Jenkins Freestyle job build logs (screenshot with BUILD SUCCESS)
+
+🙌 Author
+
+This project was created as part of Day 8 CI/CD learning journey.
+
+
+
 
