@@ -40,6 +40,8 @@ Expected output:
 
 Hello, Jenkins + Maven!
 
+---
+
 ### ⚙️ Jenkins Setup (Freestyle Job)
 
 Run Jenkins with Docker
@@ -66,7 +68,7 @@ Goal: clean package
 
 Archive the artifact: target/*.jar
 
-✅ Output
+### ✅ Output
 
 In Jenkins Console Output, you should see:
 
@@ -81,7 +83,7 @@ pom.xml
 
 Jenkins Freestyle job build logs (screenshot with BUILD SUCCESS)
 
-🙌 Author
+ ### Author
 
 This project was created as part of Day 8 CI/CD learning journey.
 
