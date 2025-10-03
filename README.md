@@ -77,11 +77,11 @@ Finished: SUCCESS
 
 📦 Deliverables
 
-Java HelloWorld app (HelloWorld.java)
+• Java HelloWorld app (HelloWorld.java)
 
-pom.xml
+• pom.xml
 
-Jenkins Freestyle job build logs (screenshot with BUILD SUCCESS)
+• Jenkins Freestyle job build logs (screenshot with BUILD SUCCESS)
 
  ### Author
 
