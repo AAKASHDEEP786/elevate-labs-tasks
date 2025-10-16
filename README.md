@@ -12,10 +12,10 @@ elevate-labs-tasks/
 ├── task1-nodejs-demo-app/
 ├── task2-to-do-app/
 ├── task3-terraform-docker-container/
-├── task4-kubernetes-minikube-deployment/
-├── task5-portfolio-website/
-└── task6-netdata-monitoring-task/
-└── task7-hello-java-maven/
+├── task4-devops-git-project/
+├── task5-kubernetes-minikube-deployment/
+├── task6-portfolio-website/
+└── task7-netdata-monitoring-task/
 └── task8-hello-java-maven/
 
 Each folder includes:
@@ -53,4 +53,5 @@ You can check out my profiles here:
 ---
 
 ⭐ **If you like my work, don’t forget to star the repo!**
+
 
