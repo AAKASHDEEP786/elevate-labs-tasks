@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-config
+  namespace: internship-day5
+data:
+  MESSAGE: "Hello from ConfigMap"
