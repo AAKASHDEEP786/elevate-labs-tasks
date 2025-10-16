@@ -6,9 +6,8 @@ Each folder represents an individual task or mini-project demonstrating skills i
 ---
 
 ## 📂 Repository Structure
-
+```
 elevate-labs-tasks/
-
 │
 ├── task1-nodejs-demo-app/ # Node.js demo app containerized using Docker
 ├── task2-to-do-app/ # Simple To-Do web app with frontend and backend setup
@@ -18,7 +17,7 @@ elevate-labs-tasks/
 ├── task6-portfolio-website/ # Personal portfolio website built with HTML/CSS/JS (or React)
 ├── task7-netdata-monitoring-task/ # Netdata monitoring setup for system and application metrics
 └── task8-hello-java-maven/ # Java Maven app demonstrating CI/CD build automation
-
+```
 Each folder includes:
 - Task-specific source code
 - Configuration files (Docker, Terraform, Jenkins, etc.)
@@ -54,6 +53,7 @@ You can check out my profiles here:
 ---
 
 ⭐ **If you like my work, don’t forget to star the repo!**
+
 
 
 
