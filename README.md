@@ -9,14 +9,14 @@ Each folder represents an individual task or mini-project demonstrating skills i
 ```
 elevate-labs-tasks/
 │
-├── task1-nodejs-demo-app/ # Node.js demo app containerized using Docker
-├── task2-to-do-app/ # Simple To-Do web app with frontend and backend setup
-├── task3-terraform-docker-container/ # Terraform automation for Docker container deployment
-├── task4-devops-git-project/ # Git-based DevOps workflow and branching strategy
-├── task5-kubernetes-minikube-deployment/ # Application deployment on Kubernetes using Minikube
-├── task6-portfolio-website/ # Personal portfolio website built with HTML/CSS/JS (or React)
-├── task7-netdata-monitoring-task/ # Netdata monitoring setup for system and application metrics
-└── task8-hello-java-maven/ # Java Maven app demonstrating CI/CD build automation
+├── task1-Node.js demo app containerized using Docker
+├── task2-Simple To-Do web app with frontend and backend setup
+├── task3-Terraform automation for Docker container deployment
+├── task4-Git-based DevOps workflow and branching strategy
+├── task5-Application deployment on Kubernetes using Minikube
+├── task6-Personal portfolio website built with HTML/CSS/JS (or React)
+├── task7-Netdata monitoring setup for system and application metrics
+└── task8-Java Maven app demonstrating CI/CD build automation
 ```
 Each folder includes:
 - Task-specific source code
@@ -53,6 +53,7 @@ You can check out my profiles here:
 ---
 
 ⭐ **If you like my work, don’t forget to star the repo!**
+
 
 
 
