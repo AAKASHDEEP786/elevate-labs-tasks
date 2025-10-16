@@ -21,7 +21,7 @@ elevate-labs-tasks/
 Each folder includes:
 - Task-specific source code
 - Configuration files (Docker, Terraform, Jenkins, etc.)
-- README or documentation (if provided with the task)
+- README
 
 ---
 
@@ -44,15 +44,16 @@ This repository demonstrates my ability to:
 ---
 
 ## 💡 About Me
-I'm a **DevOps Engineer Intern** passionate about automation, scalability, and cloud-native development.  
+I'm a **DevOps Engineer** passionate about automation, scalability, and cloud-native development.  
 You can check out my profiles here:
 
 - **GitHub:** [@AAKASHDEEP786](https://github.com/AAKASHDEEP786)  
-- **LinkedIn:** [Aakash Deep](https://linkedin.com/in/aakash-deep)  
+- **LinkedIn:** [Aakash Deep](https://www.linkedin.com/in/aakash-deep-v16/)  
 
 ---
 
 ⭐ **If you like my work, don’t forget to star the repo!**
+
 
 
 
